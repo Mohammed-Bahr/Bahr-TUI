@@ -1,0 +1,39 @@
+{
+  "id": "gruvbox",
+  "name": "Gruvbox",
+  "description": "Retro groove warm colorscheme",
+  "colors": {
+    "background": "#282828",
+    "foreground": "#ebdbb2",
+    "cursor": "#ebdbb2",
+    "cursorAccent": "#282828",
+    "selectionBackground": "#3c3836",
+    "black": "#282828",
+    "red": "#cc241d",
+    "green": "#98971a",
+    "yellow": "#d79921",
+    "blue": "#458588",
+    "magenta": "#b16286",
+    "cyan": "#689d6a",
+    "white": "#a89984",
+    "brightBlack": "#928374",
+    "brightRed": "#fb4934",
+    "brightGreen": "#b8bb26",
+    "brightYellow": "#fabd2f",
+    "brightBlue": "#83a598",
+    "brightMagenta": "#d3869b",
+    "brightCyan": "#8ec07c",
+    "brightWhite": "#ebdbb2"
+  },
+  "ui": {
+    "background": "#1c1c1c",
+    "surface": "#282828",
+    "border": "#fabd2f",
+    "accent": "#fabd2f",
+    "accentSoft": "rgba(250,189,47,0.14)",
+    "accent2": "#8ec07c",
+    "accent2Soft": "rgba(142,192,124,0.12)",
+    "text": "#ebdbb2",
+    "muted": "#928374"
+  }
+}

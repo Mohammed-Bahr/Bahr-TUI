@@ -1,0 +1,39 @@
+{
+  "id": "one-dark",
+  "name": "One Dark",
+  "description": "Atom's famous syntax palette",
+  "colors": {
+    "background": "#282c34",
+    "foreground": "#abb2bf",
+    "cursor": "#528bff",
+    "cursorAccent": "#282c34",
+    "selectionBackground": "#3e4451",
+    "black": "#282c34",
+    "red": "#e06c75",
+    "green": "#98c379",
+    "yellow": "#e5c07b",
+    "blue": "#61afef",
+    "magenta": "#c678dd",
+    "cyan": "#56b6c2",
+    "white": "#abb2bf",
+    "brightBlack": "#5c6370",
+    "brightRed": "#e06c75",
+    "brightGreen": "#98c379",
+    "brightYellow": "#e5c07b",
+    "brightBlue": "#61afef",
+    "brightMagenta": "#c678dd",
+    "brightCyan": "#56b6c2",
+    "brightWhite": "#ffffff"
+  },
+  "ui": {
+    "background": "#1e2127",
+    "surface": "#282c34",
+    "border": "#61afef",
+    "accent": "#61afef",
+    "accentSoft": "rgba(97,175,239,0.12)",
+    "accent2": "#98c379",
+    "accent2Soft": "rgba(152,195,121,0.12)",
+    "text": "#abb2bf",
+    "muted": "#5c6370"
+  }
+}

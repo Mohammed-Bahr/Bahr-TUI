@@ -1,0 +1,39 @@
+{
+  "id": "tui-dark",
+  "name": "TUI Dark",
+  "description": "Default theme — cyan glow on deep charcoal",
+  "colors": {
+    "background": "#0b0f14",
+    "foreground": "#c9d1d9",
+    "cursor": "#56d364",
+    "cursorAccent": "#0b0f14",
+    "selectionBackground": "#264f78",
+    "black": "#171a1f",
+    "red": "#ff6b6b",
+    "green": "#98c379",
+    "yellow": "#e5c07b",
+    "blue": "#61afef",
+    "magenta": "#c678dd",
+    "cyan": "#56b6c2",
+    "white": "#abb2bf",
+    "brightBlack": "#5c6370",
+    "brightRed": "#ff7b72",
+    "brightGreen": "#a5d6ff",
+    "brightYellow": "#ffd580",
+    "brightBlue": "#79c0ff",
+    "brightMagenta": "#d2a8ff",
+    "brightCyan": "#7ee7f8",
+    "brightWhite": "#f0f6fc"
+  },
+  "ui": {
+    "background": "#05070b",
+    "surface": "#0b0f14",
+    "border": "#22d3ee",
+    "accent": "#22d3ee",
+    "accentSoft": "rgba(34,211,238,0.12)",
+    "accent2": "#34d399",
+    "accent2Soft": "rgba(52,211,153,0.12)",
+    "text": "#c9d1d9",
+    "muted": "#6b7280"
+  }
+}
