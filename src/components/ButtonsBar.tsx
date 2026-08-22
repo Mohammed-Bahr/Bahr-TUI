@@ -21,11 +21,14 @@ const ButtonsBar: React.FC = () => {
       data-tauri-drag-region
       className="fixed inset-x-0 top-0 z-50 flex h-12 items-center justify-between border-b border-white/10 bg-slate-900/75 px-4 shadow-lg backdrop-blur-md select-none"
     >
-      <div className="flex flex-1 items-center text-sm font-medium text-slate-200">
+      <div
+        data-tauri-drag-region
+        className="pointer-events-none flex flex-1 items-center self-stretch text-sm font-medium text-slate-200"
+      >
         My App
       </div>
-      
-      <div className="flex items-center gap-2">
+
+      <div data-tauri-drag-region className="flex items-center gap-2">
         <button
           type="button"
           aria-label="Minimize app"
