@@ -1,0 +1,39 @@
+{
+  "id": "notion-light",
+  "name": "Notion Light",
+  "description": "Clean paper-white workspace with warm grays",
+  "colors": {
+    "background": "#ffffff",
+    "foreground": "#37352f",
+    "cursor": "#2eaadc",
+    "cursorAccent": "#ffffff",
+    "selectionBackground": "#e3ecf5",
+    "black": "#37352f",
+    "red": "#eb5757",
+    "green": "#0f7b6c",
+    "yellow": "#c29343",
+    "blue": "#2eaadc",
+    "magenta": "#ad1a72",
+    "cyan": "#0084a3",
+    "white": "#f1f1ef",
+    "brightBlack": "#9b9a97",
+    "brightRed": "#ff7369",
+    "brightGreen": "#448361",
+    "brightYellow": "#dfab01",
+    "brightBlue": "#529cca",
+    "brightMagenta": "#d97399",
+    "brightCyan": "#38b8c8",
+    "brightWhite": "#ffffff"
+  },
+  "ui": {
+    "background": "#f7f6f3",
+    "surface": "#ffffff",
+    "border": "#2eaadc",
+    "accent": "#2eaadc",
+    "accentSoft": "rgba(46,170,220,0.12)",
+    "accent2": "#0f7b6c",
+    "accent2Soft": "rgba(15,123,108,0.12)",
+    "text": "#37352f",
+    "muted": "#9b9a97"
+  }
+}

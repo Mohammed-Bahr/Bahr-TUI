@@ -1,0 +1,43 @@
+@top TextColor { (char|Expression|Unfinished|ENDLN|RMarker|CodeSection)* }
+
+CodeSection { CODE (char|Expression|Unfinished|ENDLN|RMarker)* CODE }
+
+Expression { TcLeft TcRight }
+
+TcLeft { LMarker Description }
+
+TcRight { Text REnd | Text? (Expression Text?)+ REnd }
+
+Description { Color? InnerMarker}
+
+Unfinished { LMarker Color? (ColorEOF | ColorWS)
+           | TcLeft REnd }
+
+REnd { RMarker | ENDLN | EOF }
+
+Text { Word | Word? (CodeSection Word?)+ }
+
+Word { char+ }
+
+@tokens {
+  LMarker { "~={" }
+  RMarker { "=~" }
+  EOF { @eof }
+  ENDLN { "\n\n" }
+
+  char { $[\n\r\t\u{20}\u{21}\u{23}-\u{5b}\u{5d}-\u{5f}\u{61}-\u{10ffff}\\"] | "\\" esc | "\\\u{60}"}
+
+  CODE {"`"}
+
+  esc  { $["\\\/bfnrt] | "u" hex hex hex hex }
+  hex  { $[0-9a-fA-F] }
+
+  @precedence { LMarker, RMarker }
+}
+
+@local tokens {
+  InnerMarker { "}" }
+  ColorEOF { @eof }
+  ColorWS { @whitespace }
+  @else Color
+}

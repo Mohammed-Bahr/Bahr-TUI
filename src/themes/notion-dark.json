@@ -1,0 +1,39 @@
+{
+  "id": "notion-dark",
+  "name": "Notion Dark",
+  "description": "Notion's dark mode — warm charcoal with soft contrast",
+  "colors": {
+    "background": "#191919",
+    "foreground": "#d4d4d4",
+    "cursor": "#5b9bd5",
+    "cursorAccent": "#191919",
+    "selectionBackground": "#2a4360",
+    "black": "#252525",
+    "red": "#ff7369",
+    "green": "#448361",
+    "yellow": "#dfab01",
+    "blue": "#529cca",
+    "magenta": "#d97399",
+    "cyan": "#38b8c8",
+    "white": "#d4d4d4",
+    "brightBlack": "#9b9a97",
+    "brightRed": "#ff8c85",
+    "brightGreen": "#6fb58f",
+    "brightYellow": "#ffdc49",
+    "brightBlue": "#78b4dd",
+    "brightMagenta": "#e79ac0",
+    "brightCyan": "#63d3e0",
+    "brightWhite": "#ffffff"
+  },
+  "ui": {
+    "background": "#141414",
+    "surface": "#202020",
+    "border": "#5b9bd5",
+    "accent": "#5b9bd5",
+    "accentSoft": "rgba(91,155,213,0.12)",
+    "accent2": "#6fb58f",
+    "accent2Soft": "rgba(111,181,143,0.12)",
+    "text": "#d4d4d4",
+    "muted": "#9b9a97"
+  }
+}
